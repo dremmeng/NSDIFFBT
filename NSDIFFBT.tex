@@ -1,0 +1,128 @@
+\documentclass[10pt, oneside]{article}
+\usepackage{amsmath, amsthm, amssymb, calrsfs, wasysym, verbatim, bbm, color, graphics, geometry, cite}
+\geometry{tmargin=.75in, bmargin=.75in, lmargin=.75in, rmargin = .75in}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Cdot}{\boldsymbol{\cdot}}
+\newcommand{\F}{\mathfrak{F}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newtheorem{thm}{Theorem}
+\newtheorem{defn}{Definition}
+\newtheorem{conv}{Convention}
+\newtheorem{rem}{Remark}
+\newtheorem{lem}{Lemma}
+\newtheorem{cor}{Corollary}
+\newtheorem{example}{Example}
+\newtheorem{exe}{Exercise}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{remark}{Remark}
+\title{Notes on the Structure $C^k$ Functions}
+\author{[Drew Remmenga]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\maketitle
+\begin{abstract}
+\end{abstract}
+\section*{Observations}
+    If we plug our sink, turn on the faucit to a citical value and watch the fluid starts out as a single body, a manafold in the resevoir $M_r$ and it evolves through the tap and dripples into multiple manifolds $M_1 \cdots M_i$ and into the sink where the submanifolds merge $M_s$.
+    We turn off the sink and the fluid rests in the resvoir and in the sink. $M_r \to M_r + M_1 + \cdots + M_n + M_s \cot M_r + M_s$. As topology this looks like nonsense. We will try and identify a way to talk about this phenomena.
+\section*{Existing Methods}
+\subsection*{Navier-Stokes}
+    Navier-Stokes equations blow up in finite time \cite{tao2015finitetimeblowupaveraged} and have lots of restrictions which I willnot repeat but can be found here \cite{tao2015finitetimeblowupaveraged}. This blow up is not a bug but a feature, more on that later.
+    I'm only going to make the problem worse with more restrictions. Let's denote the set of solutions to these equations on a manifold $M$ as $F(M)$.
+\subsection*{Volume Preserving Diffeomorphism}
+    The group of volume preserving diffeomorphism of smoothness $k$ between homeotopic manifolds is denoted $\text{Diff}^k_\omega(M)$. As a group it is perfect \cite{} and as a Lie Algebra it is infinite dimensional. We will take the infinitely smooth diffeomorphisms $k \to \infty$. 
+    Additionally we shall take instead of volume form $\omega$ perserving diffeomrophism we shall take the mass perserving ones $m$ where $m$ is given by the Navier Stokes Equations. This group given by $\text{Diff}^\infty_m(M)$ is probably isomorphic to $\text{Diff}^\infty_\omega$.\footenote{I very badly want to put a citation here.}
+    We use mass because mass is conserved even in compressible fluids.
+\section*{Banach Tarski}
+    The Banach-Tarski paradox states that as a consequence of the axiom of choice one can disassemble a unit ball into discrete subsets and reassemble these subsets into two new unit balls \cite{}. We know that simples - molecules - in a fluid can be interchanged. Fundamentally two water molecules are isomorphic, the water in our resevoir $M_r$ can probably be considered well mixed. And we can select a molecule of water and move it into the new subsets in general.
+    We denote the $split$ of a manifold $M$ using the Banach-Tarski result as $M|^\wedge_+$ yielding two new manifolds $M_1, M_2$. We can impose an additional restriction on the manifolds such that mass is conserved. $(M_1,m_1)|^{wedge}_+ = (M_2,m_2) \oplus (M_3,m_3)$. Where $m_1 = m_2 + m_3$. In futher notation we will drop the little $m$'s and take this result as part of the operation $|^\wedge_+$.
+    As far as I am aware there is no set theory result to reverse this operation, but we will denote it $|^\wedge_-$. Which takes in two manifolds $M_1$ and $M_2$ and yields a third manifold $M_3$ where mass is once again conserved. 
+    There may be something clever one can do with Ricci flow here to disolve one of the two smaller manifolds as time evolves. As a whole we refer to all these manifolds under these operations $\mathfrak{M} = (M, |^\wedge)$
+\section*{Set of Solutions}
+    So if we want to bound $\F(M)$ we can take the intersections of $\F(M) = F(M) \cap \text{Diff}_m^\infty(M)$. Futhermore we want our manifolds $M$ to $split$ and $merge$. We want to talk about the total space $X$ with its own topology $\mathcal{O}$ with the submanifolds embedded within that topology $\mathfrak{M}$.
+    Then totality of fluid solutions can be written $(X,\mathcal{O},\F(\mathfrak{M}))$. As solutions $F(M)$ become unbounded at time $t$ it may be possible to drop the intersection with $\text{Diff}_m^\infty (M)$ and link the time $t$ to a $split$.
+\section*{Further Research}
+    Couple of notes:
+    \begin{align}
+        \text{Diff}^k_m(M)\cong \text{Diff}_\omega^\k (M)
+    \end{align}
+    In set theory:
+    \begin{align}
+        \exists |^{\wedge}_-
+    \end{align}
+    A critical point in time $t$:
+    \begin{align}
+        \text{Ricci Flow}(t) \proptp |^{wedge}_-(t)
+    \end{align}
+    \begin{align}
+        \text{sup}(|F(m)|)(t) \proptp |^{wedge}_+ (t)
+    \end{align}
+    Finally: is the total topology $(X,\mathcal{O})$ well defined?
+\bibliographystyle{plain}  % or another style like alpha, unsrt, etc.
+\bibliography{references.bib}  % the name of the .bib file
+\end{document}
