@@ -80,7 +80,7 @@
 \newtheorem{exe}{Exercise}
 \newtheorem{conjecture}{Conjecture}
 \newtheorem{remark}{Remark}
-\title{Notes on Fluid Dynamics}
+\title{A Practical Application of the Banach-Tarski Paradox to Fluid Dynamics?}
 \author{[Drew Remmenga]}
 \begin{document}
 
@@ -89,7 +89,7 @@
    We postulate on a connection between blow up times of Navier-Stokes equations and the Banach-Tarski Paradox.
 \end{abstract}
 \section*{Observations}
-   If we plug our sink, turn on the faucet to a critical value and watch the fluid evolve away from a single body given by a manifold in the reservoir $M_r$. It evolves through the tap and dribbles into multiple manifolds $M_1 \cdots M_i$ and into the sink where the submanifolds merge $M_s$.
+   If we plug our sink, turn on the faucet to a critical value, and watch the fluid evolve away from a single body given by a manifold in the reservoir $M_r$. It evolves through the tap and dribbles into multiple manifolds $M_1 \cdots M_i$ and into the sink where the submanifolds merge $M_s$.
    We turn off the sink and the fluid rests in the reservoir and in the sink. $M_r \to M_r + M_1 + \cdots + M_n + M_s \cot M_r + M_s$. As topology this looks like nonsense. We will try to identify a way to talk about this phenomenon.
 \section*{Existing Methods}
 \subsection*{Navier-Stokes}
@@ -101,11 +101,11 @@
    We use mass because mass is conserved even in compressible fluids.
 \section*{Banach Tarski}
    The Banach-Tarski paradox states that as a consequence of the axiom of choice one can disassemble a unit ball into discrete subsets and reassemble these subsets into two new unit balls \cite{Tao2011}. We know that simples - molecules - in a fluid can be interchanged. Fundamentally two water molecules are isomorphic, the water in our reservoir $M_r$ can probably be considered well mixed. And we can select a molecule of water and move it into the new subsets in general.
-   We denote the $split$ of a manifold $M$ using the Banach-Tarski result as $M|^\wedge_+$ yielding two new manifolds $M_1, M_2$. We can impose an additional restriction on the manifolds such that mass\footnote{Volume form may work just as well} is conserved. $(M_1,m_1)|^{wedge}_+ = (M_2,m_2) \oplus (M_3,m_3)$. Where $m_1 = m_2 + m_3$. In further notation we will drop the little $m$'s and take this result as part of the operation $|^\wedge_+$.
+   We denote the $split$ of a manifold $M$ using the Banach-Tarski result as $M|^\wedge_+$ yielding two new manifolds $M_1, M_2$. We can impose an additional restriction on the manifolds such that mass\footnote{Volume form may work just as .} is conserved. $(M_1,m_1)|^{wedge}_+ = (M_2,m_2) \oplus (M_3,m_3)$. Where $m_1 = m_2 + m_3$. In further notation we will drop the little $m$'s and take this result as part of the operation $|^\wedge_+$.
    As far as I am aware there is no set theory result to reverse this operation, but we will denote it $|^\wedge_-$. Which takes in two manifolds $M_1$ and $M_2$ and yields a third manifold $M_3$ where mass is once again conserved.
    There may be something clever one can do with Ricci flow here to dissolve one of the two smaller manifolds as time evolves.\cite{gianniotis2015ricciflowmanifoldsboundary} As a whole we refer to all these manifolds under these operations $\mathfrak{M} = (M, |^\wedge)$
 \section*{Set of Solutions}
-   So if we want to bound $F(M)$ we can take the intersections of $\F(M) = F(M) \cap \text{Diff}_m^\infty(M)$. Furthermore we want our manifolds $M$ to $split$ and $merge$. We want to talk about the total space $X$ with its own topology $\mathcal{O}$ with the submanifolds embedded within that topology $\mathfrak{M}$.
+   So if we want to bound $F(M)$ we can take the intersections of $\F(M) = F(M) \cap \text{Diff}_m^\infty(M)$ \footnote{It may also work to intersect solutions to Navier-Stokes with $C^k$ functions.} Furthermore we want our manifolds $M$ to $split$ and $merge$. We want to talk about the total space $X$ with its own topology $\mathcal{O}$ with the submanifolds embedded within that topology $\mathfrak{M}$.
    Then the totality of fluid solutions can be written $(X,\mathcal{O},\F(\mathfrak{M}))$. As solutions $F(M)$ become unbounded at time $t$ it may be possible to drop the intersection with $\text{Diff}_m^\infty (M)$ and link the time $t$ to a $split$.
 \section*{Further Research}
    Couple of open questions:

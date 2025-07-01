@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex NSDIFFBT"] 1751211587.67163 "NSDIFFBT.aux" "NSDIFFBT.bbl" "NSDIFFBT" 1751298015.69254 0
+["bibtex NSDIFFBT"] 1751211587.67163 "NSDIFFBT.aux" "NSDIFFBT.bbl" "NSDIFFBT" 1751387800.64613 0
   "./references.bib" 1751211586.92192 1217 5d1c96fc65fb3a0577664155d0e7d690 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "NSDIFFBT.aux" 1751298015.42797 399 1f8c7fe958d72451e5fd5e05a3e75220 "pdflatex"
+  "NSDIFFBT.aux" 1751387800.33578 399 1f8c7fe958d72451e5fd5e05a3e75220 "pdflatex"
   (generated)
   "NSDIFFBT.bbl"
   "NSDIFFBT.blg"
   (rewritten before read)
-["pdflatex"] 1751298015.14142 "/home/drew/Documents/NSDIFFBT/NSDIFFBT.tex" "NSDIFFBT.pdf" "NSDIFFBT" 1751298015.69265 0
-  "/home/drew/Documents/NSDIFFBT/NSDIFFBT.tex" 1751298014.96598 5475 e98d522ae9280d998ff1d0736963da64 ""
+["pdflatex"] 1751387800.04385 "/home/drew/Documents/NSDIFFBT/NSDIFFBT.tex" "NSDIFFBT.pdf" "NSDIFFBT" 1751387800.64628 0
+  "/home/drew/Documents/NSDIFFBT/NSDIFFBT.tex" 1751387799.8718 5610 648e4c83ae3abf309993e14bdcbc3e52 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -47,7 +47,9 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb" 1248133631 32298 c6d25bb16d1eac01ebdc6d7084126a1e ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1248133631 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
@@ -99,9 +101,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1743017093 5496777 dfac5a65ccd1b178961f799dec0d389d ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1743017200 3345754 aaf435fcdfc94e675b7472152a660ba2 ""
   "/usr/local/texlive/2025/texmf.cnf" 1743017089.25792 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "NSDIFFBT.aux" 1751298015.42797 399 1f8c7fe958d72451e5fd5e05a3e75220 "pdflatex"
+  "NSDIFFBT.aux" 1751387800.33578 399 1f8c7fe958d72451e5fd5e05a3e75220 "pdflatex"
   "NSDIFFBT.bbl" 1751211587.7729 714 a377aa96f1c24d87bf165d952393af7b "bibtex NSDIFFBT"
-  "NSDIFFBT.tex" 1751298014.96598 5475 e98d522ae9280d998ff1d0736963da64 ""
+  "NSDIFFBT.tex" 1751387799.8718 5610 648e4c83ae3abf309993e14bdcbc3e52 ""
   (generated)
   "NSDIFFBT.aux"
   "NSDIFFBT.log"
